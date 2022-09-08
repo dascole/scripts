@@ -14,11 +14,11 @@ Incoming....cool stuff
 
 | Script                             | Description                                                                           | Default                  |
 |------------------------------------|---------------------------------------------------------------------------------------|--------------------------|
-| config-keycloak.sh                 | Create a keycloak client and user                                                     |                          |
+| [config-keycloak.sh](keycloak/config-keycloak.sh)                | Create a keycloak client and user                                                     |                          |
 
 
 ## Kong API Gateway
 
 | Script                             | Description                                                                           | Default                  |
 |------------------------------------|---------------------------------------------------------------------------------------|--------------------------|
-| create-routes.sh                   | Create routes in bulk                                                                 |                          |
+| [create-routes.sh](kong-gateway/create-routes.sh)                   | Create routes in bulk                                                                 |                          |
