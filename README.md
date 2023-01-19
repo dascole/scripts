@@ -21,4 +21,5 @@ Incoming....cool stuff
 
 | Script                             | Description                                                                           | Default                  |
 |------------------------------------|---------------------------------------------------------------------------------------|--------------------------|
-| [create-routes.sh](kong-gateway/create-routes.sh)                   | Create routes in bulk                                                                 |                          |
+| [create-routes.sh](kong-gateway/create-routes.sh)  | Create routes in bulk                                                 |                          |
+| [| [create-routes.sh](kong-gateway/create-routes.sh)  | Create routes in bulk                                                 |                          |](kong-gateway/https://create-upstreams-and-targets.sh/)  | Create routes, services, upstreams & targets in bulk                                                 |                          |
