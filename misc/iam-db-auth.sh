@@ -15,7 +15,7 @@ eksctl get iamserviceaccount --cluster $cluster_name
 policy_arn=$(aws iam list-policies | jq -r --arg pn "$policy_name" '.Policies[] | select(.PolicyName==$pn) | .Arn')
 aws iam delete-policy --policy-arn $policy_arn
 aws iam delete-role --role-name $role_name
-eksctl delete iamserviceaccount $sa_name --cluster cre-testing
+eksctl delete iamserviceaccount $sa_name --cluster $cluster_name
 
 oidc_id=$(aws eks describe-cluster --name $cluster_name --query "cluster.identity.oidc.issuer" --output text  | cut -d '/' -f 5)
 aws iam list-open-id-connect-providers | grep $oidc_id | cut -d "/" -f4
