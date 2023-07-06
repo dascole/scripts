@@ -29,7 +29,7 @@ cat >rds-policy.json <<EOF
         {
             "Effect": "Allow",
             "Action": "rds-db:connect",
-            "Resource": "arn:aws:rdsdb:*:<ACCOUNT-NUM>:dbuser:<DB-INSTANCE-ID>/<DB-USER>"
+            "Resource": "arn:aws:rds-db:*:<ACCOUNT-NUM>:dbuser:<DB-INSTANCE-ID>/<DB-USER>"
         }
     ]
 }
