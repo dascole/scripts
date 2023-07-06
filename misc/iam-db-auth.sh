@@ -54,6 +54,7 @@ export policy_arn=$(aws iam list-attached-role-policies --role-name $role_name -
 
 aws iam get-policy --policy-arn $policy_arn
 
+# If you have run this multiple times you will need to change the version, v1, below to the latest version of the policy or it will appear to return stale data
 aws iam get-policy-version --policy-arn $policy_arn --version-id v1
 
 
